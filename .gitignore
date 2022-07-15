@@ -1,0 +1,9 @@
+# Dependency directories
+node_modules/
+
+# macOS
+.DS_Store
+
+# Built files
+build
+.parcel-cache

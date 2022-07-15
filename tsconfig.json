@@ -1,0 +1,40 @@
+{
+  "compilerOptions": {
+    "allowSyntheticDefaultImports": true,
+    "allowUnreachableCode": false,
+    "allowUnusedLabels": false,
+    "declaration": true,
+    "esModuleInterop": true,
+    "importHelpers": true,
+    "jsx": "react-jsx",
+    "module": "commonjs",
+    "noEmit": true,
+    "noEmitOnError": true,
+    "noImplicitAny": false,
+    "outDir": "tmp",
+    "skipDefaultLibCheck": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictBindCallApply": true,
+    "target": "es6",
+    "baseUrl": "./"
+  },
+  "lib": [
+    "DOM",
+    "ES2020",
+    "ESNext"
+  ],
+  "include": [
+    "index.d.ts",
+    "src/**/*",
+    "assets/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/__tests__",
+    "**/__mocks__"
+  ],
+  "plugins": [
+    { "name": "typescript-plugin-css-modules" }
+  ]
+}
